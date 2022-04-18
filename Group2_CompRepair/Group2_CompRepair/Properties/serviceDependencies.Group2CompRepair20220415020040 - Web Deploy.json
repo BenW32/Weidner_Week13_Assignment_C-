@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "apis1": {
+      "apiEndpoint": "https://group2comprepairapi.azure-api.net/",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/Group2CompRepairapi/apis/Group2CompRepair",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/weidnerben/databases/Group2_CompRepair",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:Group2_CompRepair"
+    }
+  }
+}
